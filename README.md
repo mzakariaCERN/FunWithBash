@@ -10,3 +10,6 @@ Different useful tools I use in the terminal environment
  3. using a global flag '\g' 
  4. from a file called Place_Holder.txt 
  5. pipe it to Fixed_Place_Holder.txt
+
+Good resources on sed
+https://likegeeks.com/sed-linux/

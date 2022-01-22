@@ -13,3 +13,21 @@ Different useful tools I use in the terminal environment
 
 Good resources on sed
 https://likegeeks.com/sed-linux/
+
+
+## install ubuntu bash on windows without using MS store
+https://stackoverflow.com/a/64872285/4656963
+
+from power shell
+
+```
+# go into some folder into which you want the file to be downloaded
+cd <somefolder>
+
+# download Ubuntu 20.04
+Invoke-WebRequest -Uri https://aka.ms/wslubuntu2004 -OutFile Ubuntu.appx -UseBasicParsing
+
+# install downloaded *.appx file
+Add-AppxPackage .\Ubuntu.appx
+
+```
